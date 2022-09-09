@@ -4,6 +4,7 @@ import { lastValueFrom } from "rxjs";
 import { Registration, Response } from "../models";
 
 const URL = 'http://localhost:8080/api/registration'
+//const URl = 'https://evening-taiga-09068.herokuapp.com/api/registration'
 
 @Injectable()
 export class RegistrationService {
